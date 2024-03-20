@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=Cookie&family=Dancing+Script:wght@500&family=Delicious+Handrawn&family=Heebo&family=Kenia&family=Nunito:wght@200&family=Orbitron:wght@400;500&family=Pacifico&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.border{
+    border: 2px solid red ;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.4)) ,  url(https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/67033404-2df8-42e0-a5a0-4c8288b4da2c/IN-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 15px solid #45474B;
+}
+nav{
+   
+    width: 80%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18.5%;
+}
+
+.logo{
+    width: 20%;
+    padding-top: 2%;
+    margin-inline-start: -20%;
+    
+}
+
+.languageSignIn{
+   
+    width: 25%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+   
+}
+
+#langdd{
+ width: 45%;
+ height: 34%;
+ background-color: transparent;
+ color: white;
+ font-size: 1.3rem;
+ border-radius: 0.5vh;
+ outline: none;
+}
+
+#sbtn{
+ width: 30%;
+ height: 34%;
+ background-color: #e50914;
+ color: white;
+ font-size: 1.1rem;
+ border: none;
+ outline: none;
+  border-radius: 0.5vh;
+  
+}
+
+.textPart{
+    color: white;
+    width: 100%;
+    height: 50%;
+    font-size: 2.3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    
+}
+
+.mailAndbtn{
+    width: 35%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 10%;
+    /* border: 2px solid red; */
+}
+
+.otherNav{
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+   
+}
+
+.inputmail{
+  height: 70%;
+  width: 60%;
+  margin-right: 3%;
+  background-color: rgba(0,0,0,0.4);
+  padding-left: 1%;
+  color: white;
+  font-size: 1.5rem;
+  outline: none;
+  border: 0.5px solid white;
+  border-radius: 0.5vh;
+  /* border: 2px solid red; */
+}
+
+.getstbtn{
+ height: 70%;
+ width: 30%;
+ margin-top: 0.4%;
+ background-color: #e50914;
+ color: white;
+ font-size: 1.5rem;
+ border: none;
+ outline: none;
+ border-radius: 0.5vh;
+}
+
+section{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    border-bottom: 15px solid #45474B;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.box{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.faqPart{
+    /* border: 2px solid red; */
+
+    width: 100%;
+    height: 120%;
+    background-color: black;
+    border-bottom: 15px solid #45474B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faqText{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 12%;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.faqQues{
+    /* border: 2px solid red; */
+    width: 80%;
+    height:450%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.mailAndGetStarted{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 7%;
+    margin-top: 2%;
+}
+.quesbox{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 90%;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2% 0px 2%;
+    background-color: rgb(51, 50, 50);
+    margin-top: 1%;
+   
+}
+
+footer{
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.footertext{
+    /* border: 2px solid red; */
+ width: 80%;
+ height: 5%;
+}
+table{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 65%;
+}
