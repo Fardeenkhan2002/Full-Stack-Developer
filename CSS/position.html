@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container {
+            width: 400px;
+            height: 400px;
+            background-color: grey;
+            /* position: relative; */
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #b1 {
+            
+            background-color: lightcyan;
+            position: relative;
+            top: 0px;
+            left:50vw;
+        }
+
+        #b2 {
+            background-color: lightcoral;
+            position:absolute;
+            left: 50%;
+            z-index: 1;
+        }
+
+        #b3 {
+            background-color: cadetblue;
+            position: fixed;
+            left: 50%;
+            z-index: 2;
+        }
+
+        #b4 {
+            background-color: lightpink;
+            position: sticky;
+           top: 200px;
+           left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="b1">Relative </div>
+        <div class="box" id="b2">Absolute </div>
+        <div class="box" id="b3">Fixed</div>
+        <div class="box" id="b4">sticky</div>
+    </div>
+    <div class="screenwidth" style="height: 300vh;  background-color: red;">
+
+    </div>
+</body>
+
+</html>
