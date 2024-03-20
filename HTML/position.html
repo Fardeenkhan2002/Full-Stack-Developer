@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+}
+.box{
+    width: 100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#b1{
+    background-color: aqua;
+    position: relative;
+    top: 0px;
+    left: 5vw;
+}
+#b2{
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 50vh;
+}
+#b3{
+    background-color: red;
+    position: fixed;
+    top: 10%px;
+    left: 30vh;
+
+}
+#b4{
+    background-color: blueviolet;
+    position: sticky;
+    top: 100px;
+    left: 100px;
+}
+.other{
+    background-color: black;
+    height: 900px;
+    width: 900px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="b1">relative</div>
+    <div class="box" id="b2">absolute</div>
+    <div class="box" id="b3">fixed</div>
+    <div class="box" id="b4">sticky</div>
+</div>
+<div class="other"></div>
+</body>
+</html>
