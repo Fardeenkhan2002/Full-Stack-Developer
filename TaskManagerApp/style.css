@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cookie&family=Heebo&family=Nunito:wght@200&family=Oswald:wght@300&family=Pacifico&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+.nav-cont{
+    height: 10vh;
+    width: 100%;
+    background-color:#0F1035 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+}
+
+.colorBar{
+    height: 75%;
+    width: 40%;
+    background-color: #7FC7D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    height: 70%;
+    width: 20%;  
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+
+.optionBar{
+    width: 10%;
+    height: 75%;
+    background-color: #7FC7D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 35%;
+}
+
+
+.option{
+    width: 30%;
+    height: 70%;
+}
+
+.icon{
+    width: 100%;
+    height: 100%;
+}
+
+.task-adder{
+    height: 30vh;
+    width: 30%;
+    /* border: 2px solid red; */
+    position: fixed;
+    left: 33%;
+    top: 20%;
+    background-color: #7FC7D9;
+    z-index: 3;
+}
+
+.text-part{
+    height:70%;
+    /* border: 2px solid red; */
+}
+.colorPart{
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    align-items: center;
+    border-top: 5px solid black;
+}
+
+.ticket-Container{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #DCF2F1;
+   
+}
+
+.ta{
+    height: 100%;
+    width: 100%;
+    resize: none;
+    font-size: 2rem;
+    padding: 2%;
+    outline: none;
+    border: none;
+    background-color: #7FC7D9;
+}
+
+.ticket{
+    margin-top: 2%;
+    height: 35%;
+    width: 12%;
+    border: 0.5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    position: relative;
+}
+
+.ticket-color{
+    height: 10%;
+
+}
+
+.ticket-task{
+    height: 90%;
+    background-color: #E5E1DA;
+    font-size: 2rem;
+    padding: 5%;
+    
+    word-wrap: break-word;
+    overflow: scroll;
+}
+
+.active{
+    border:4px solid darkblue
+}
+
+.lockIcon{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    cursor: pointer;
+}

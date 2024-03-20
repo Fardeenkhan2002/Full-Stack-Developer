@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  </link>
+</head>
+
+<body>
+  <nav class="nav-cont">
+    <div class="colorBar">
+      <div class="box red"></div>
+      <div class="box yellow"></div>
+      <div class="box green"></div>
+      <div class="box blue"></div>
+    </div>
+    <div class="optionBar">
+      <div class="option addbtn"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 11H7V13H11V17H13V13H17V11H13V7H11V11Z"
+            fill="currentColor"></path>
+        </svg></div>
+      <div class="option delbtn"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M4 8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8ZM6 10V20H18V10H6ZM9 12H11V18H9V12ZM13 12H15V18H13V12ZM7 5V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V5H22V7H2V5H7ZM9 4V5H15V4H9Z"
+            fill="currentColor"></path>
+        </svg> </div>
+      <div class="option showAll"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M12.9998 3L12.9996 10.267L19.294 6.63397L20.294 8.36602L14.0006 11.999L20.294 15.634L19.294 17.366L12.9996 13.732L12.9998 21H10.9998L10.9996 13.732L4.70557 17.366L3.70557 15.634L9.99857 12L3.70557 8.36602L4.70557 6.63397L10.9996 10.267L10.9998 3H12.9998Z"
+            fill="currentColor"></path>
+        </svg></div>
+    </div>
+  </nav>
+  <div class="task-adder hidden">
+    <div class="text-part">
+      <textarea class="ta"></textarea>
+    </div>
+    <div class="colorPart">
+      <div class="box red active"></div>
+      <div class="box yellow"></div>
+      <div class="box blue"></div>
+      <div class="box green"></div>
+    </div>
+  </div>
+  <div class="ticket-Container">
+   <!-- <div class="ticket">
+    <div class="ticket-color ${activeColor}"></div>
+    <div class="ticket-task">
+      <span class="material-symbols-outlined lockIcon">
+        lock_open
+        </span>
+        
+    </div>
+   </div>
+  </div> -->
+</body>
+<script src="./script.js"></script>
+
+</html>
